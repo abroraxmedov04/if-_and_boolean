@@ -1,0 +1,179 @@
+Some basic instructions and tips that I need to cover goes here!
+
+!Аспекты которые нужно учесть при работы и конечно изучить!
+-Стрелочные функции
+-
+
+
+
+
+Symbol = уникальное примитивное значениие! плюс к этому это своейство которое не будет перезаписоваться снова и снова.
+Objects-We will civer it soon!
+
+'' - " " = in most cases equal to string in other word (строчные элементы)
+''' - ''' = multiline string
+""" - """ = triple quoted strings
+# - comment line
+" " - " " = equal to the number of characters in a string.
+$ - dollar sign, used to denote variable names.
+@ - at symbol is used for variables which are not going to be changed or reassigned throughout the program execution.
+@ - at symbol is used for variables whose values are not known until runtime.
+= - equals sign is used as assignment operator.
+== - double equals sign is used for comparing two objects or checking if they have same value.
+=== - triple equals sign is used for strict comparison between operands. If both operands are numeric then this check would be done based on their numerical value otherwise
+=== - triple equals sign is used when we want to check if both operands are identical(same object).
+!= - exclamation mark is used for negating boolean expressions.
+<> - less than and greater than signs are used for comparison operators like equality but with different types.
+<> - angle brackets are used for comparison operators. It checks either less than or greater than.
+< > <= >= - these symbols are used for numeric comparisons.
+&& - logical AND operator. If all conditions return true then resultant expression returns True else False.
+|| - Logical OR Operator. If any condition is true then whole statement becomes true otherwise false.
+++ - increment by one.
+-- - decrement by one.
++ - addition operation.
+- - subtraction operation.
+* - multiplication operation.
+/ - division operation.
+% - modulo operation.
+** - exponentiation operation.
+~ - bitwise NOT operator.
+<< >> >>> - left shift right shift unsigned right shift operations respectively.
+& | ^ - bitwise AND, OR, XOR operations respectively.
+? : - ternary conditional operator.
++= -= *= /= %= **= <<= >>= &= |= ^= - compound assignments with arithmetic, bitwise shifts and binary operations respectively.
++= -= *= /= %= **= <<= >>= &= |= ^= - compound assignments with arithmetic, bitwise shifts & binary operations respectively.
+() [] {} - grouping parentheses, square bracket, curly braces.
+
+
+note- То что находится в блоке мы не можем изменять.
+------------------------------------------------
+
+!операторы сравнения
+
+<,>,>=,<= больше мень все такое
+== -not strong assignment(chexking)
+=== -strong assigment (checking type too!)
+!= - нестрогое неравенство
+!== - строгий тип и равенства
+
+console.log('5' == 5) = true -так как сравнивает только числа
+console.log('5' === 5) = афдыу -так как сравнивает только числа и типы данные (string and number!)
+
+--------------------------------------------------
+
+Условии (conditions)
+
+Syntax:
+
+{
+    if(condition){
+        //do something
+    } else {
+        // do another thing
+    }
+} 
+
+Это самое первоье и асновное условие в JS(JavaScript)
+
+const time  = 12;
+
+if (time < 12){
+    console.log('Good morning')
+} else {
+    console.log('Good Evening')
+}
+все идет по порядку!
+
+/------------------/
+
+Логические-операторы(Logical-operators)
+&& - AND
+|| - OR
+!true - NOT
+//example
+
+/-----------------------------------------------------/
+
+Тернарный-оператор (ternary operator)
+
+Syntax : condition ? (Условие верно) expr1 : (Условие-неверно) expr2;
+
+поначу можно писать с прстым методом If and else но этот способ гораздо легче!
+
+10 < 12 ? console.log("Условие верно") : console.log("Условие Не верно");
+
+такие образом можно описать любую условию и все будет работать идеально!
+
+
+----------------------------------------------
+
+Функции(Functions)
+Синтаксис функций: function name([param[, param[, ... param]]]) {}
+
+DRY = don't repeat yourself
+
+function sayHi(){
+    console.log('Hello');
+}
+sayHi(); = запускаем на выполнение
+
+Мы можем использовать функции везде где угодно
+
+-----------------------------------------------
+
+
+параметры и аргументы для функции(parametrs and arguments for functions)
+
+function sayHi(name){
+    console.log(` hello, ${name}! hru?`)
+}
+
+sayHi("")
+sayHi("")
+sayHi("")
+
+в этой функции один параметр name, а в скобках его передают разные значения
+и так может повторяться бесконечно
+-------------------------------------------
+
+Return
+Применение return позволяет прекратить выполнение следующих команд после найденной команды return.
+
+--------------------------------------------
+
+Массивы(Massive)
+
+Ну в основном в массивы мы можем записывать обсолютно любые 
+данные и выбирать все в нужное время это помогает всей работе!
+
+Syntax: variable name = [ @content goes here]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

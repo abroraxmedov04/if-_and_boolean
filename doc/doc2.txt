@@ -1,0 +1,102 @@
+a && b
+a * b
+
+a && b --> 1 * 0 --> 0 -> false
+
+
+a = true
+b= false
+
+true = 1
+false = 0
+
+
+a = true b = false c = true
+ 1   0    1
+a && b && c --> false
+
+a || b || c --> true
+
+a + b + c --> 1 + 1 + 1 --> 3 -> true
+
+a = true
+b = true
+c = true
+
+
+
+
+if(shart) {
+    amal
+}else if(shart) {
+    amal
+} else {
+    amal
+}
+
+above some code that my teacher taught me!
+
+
+
+
+/---------------------------------------------------------------------/
+
+// JavaScript Source Code
+
+-----------------------------------------------------
+
+functions cover everything i need to know about 
+
+What are the functions? 
+- Functions in JS is a block of code which only runs when it's called.
+in my xase: here it is a buch of code that perfome some tasks that we need to complete,
+and we can make it simple and reusable too by giving a name and call it everywhere as we humans have 
+our name so here is the same goes with functions.
+
+------------------------------------------------------
+
+terminoologies!
+
+functions and methods
+declarariond and definitions 
+arguments and parameters
+callback and higher order functions
+
+
+------------------Functions Declaration----------------
+
+function printMe(@parametres) {
+  /* this is the syntax of function i can just just
+    call it without any parameter and no return value */
+  console.log("printing...")
+}
+
+
+
+// Returns true if n is 
+// even, else odd 
+function isEven(n) { 
+	return (n % 2 == 0); 
+} 
+
+// Driver code 
+let n = 101; 
+
+isEven(n) ? console.log("Even") : console.log("Odd");
+
+
+
+
+
+function checkOddOrEven(n) { 
+	if (n & 1 == 1) { 
+		return "Number is odd"; 
+	} 
+	return "Number is even"; 
+} 
+
+console.log(checkOddOrEven(12)); 
+console.log(checkOddOrEven(121));
+
+
+
